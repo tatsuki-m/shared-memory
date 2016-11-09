@@ -4,7 +4,7 @@
 
 int main()
 {
-    bool uploadFlag = false;
+    bool uploadFlag = true;
     SharedMemory *sm;
     sm = new SharedMemory("SharedMemory");
     int i = 0;
